@@ -30,4 +30,4 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
                 to="Twilio Verified Number Here", 
                 from_="Twilio Assigned Number",
-                body=uote)
+                body=quote)
